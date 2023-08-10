@@ -1,0 +1,58 @@
+{
+    "scenes": [
+      {
+        "id": 0,
+        "background_url": "assets/images/mountain-0.jpg",
+        "hitzones": [
+          {"x": "10%", "y": "50%", "goto": 1}
+        ]
+      },
+      {
+        "id": 1,
+        "background_url": "assets/images/mountain-1.jpg",
+        "hitzones": [
+          {"x": "10%", "y": "50%", "goto": 0},
+          {"x": "60%", "y": "50%", "goto": 2}
+        ]
+      },
+      {
+        "id": 2,
+        "background_url": "assets/images/mountain-2.jpg",
+        "hitzones": [
+          {"x": "10%", "y": "50%", "goto": 1},
+          {"x": "80%", "y": "50%", "goto": 3}
+        ]
+      },
+      {
+        "id": 3,
+        "background_url": "assets/images/mountain-3.jpg",
+        "hitzones": [
+          {"x": "20%", "y": "50%", "goto": 2},
+          {"x": "70%", "y": "50%", "goto": 4}
+        ]
+      },
+      {
+        "id": 4,
+        "background_url": "assets/images/mountain-4.jpg",
+        "hitzones": [
+          {"x": "30%", "y": "50%", "goto": 3},
+          {"x": "60%", "y": "30%", "goto": 5}
+        ]
+      },
+      {
+        "id": 5,
+        "background_url": "assets/images/mountain-5.jpg",
+        "hitzones": [
+          {"x": "40%", "y": "50%", "goto": 4},
+          {"x": "70%", "y": "70%", "goto": 6}
+        ]
+      },
+      {
+        "id": 6,
+        "background_url": "assets/images/mountain-6.jpg",
+        "hitzones": [
+          {"x": "50%", "y": "50%", "goto": 5}
+        ]
+      }
+    ]
+  }

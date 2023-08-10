@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Hiking Game</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="game-container" #gameContainer>
+    <ion-button class="scroll-button left" (click)="scrollTo('left')">&lt;</ion-button>
+    <img [src]="currentScene?.background_url" alt="Scene" class="background-image">
+    <div
+      class="hitzones"
+      *ngFor="let zone of currentScene?.hitzones"
+      [ngStyle]="{ left: zone.x, top: zone.y }"
+      (click)="handleZoneClick(zone.goto)"
+    ></div>
+    <ion-button class="scroll-button right" (click)="scrollTo('right')">&gt;</ion-button>
+    <button class="walk-button" *ngFor="let zone of currentScene?.hitzones" (click)="walkTo(zone)">
+      Walk Here
+    </button>
+  </div>
+</ion-content>
