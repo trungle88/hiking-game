@@ -9,4 +9,5 @@ Project setup:
    - cd hiking-game
 
 Compiles and hot-reloads for development:
-    ionic serve
+   - ionic serve
+Branch: Master
