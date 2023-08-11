@@ -3,13 +3,13 @@
     + using animation.
 
 
-Project setup:
-   - npm install -g @ionic/cli
-   - ionic start hiking-game blank --type=angular
-   - cd hiking-game
+- Project setup:
+   + npm install -g @ionic/cli
+   + ionic start hiking-game blank --type=angular
+   + cd hiking-game
 
-Compiles and hot-reloads for development:
-   - ionic serve
+- Compiles and hot-reloads for development:
+   + ionic serve
 
-Branch: 
-   - Master
+- Branch: 
+   + Master
