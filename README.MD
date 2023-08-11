@@ -10,5 +10,6 @@ Project setup:
 
 Compiles and hot-reloads for development:
    - ionic serve
+
 Branch: 
    - Master
