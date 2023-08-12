@@ -1,4 +1,4 @@
-- I finished the project in 8 hours in the evening because I have go to work during the day.
+- I finished the project in 6 hours in the evening because I have go to work during the day.
 - I will improve if I have more time:
     + using animation.
 
